@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    padding: 40px;
+    font-size: larger;
+}
+body a{
+    color: rgba(2, 30, 90, 0.842);
+}
+.name{
+    padding: 20px;
+    padding-left: 0px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.name h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.name p{
+    font-size: xx-large;
+}
+.profilePic img{
+        width: 300px;
+        height: 300px;
+}
+.secondDiv{
+    padding: 10px;
+    padding-left: 0px;
+}
+.secondDiv ul{
+    list-style-type:none;
+    padding: 0px;
+}
+.address{
+    padding: 0px;
+}
+.contact{
+    padding: 0px;
+    padding-left: 40px;
+}
+#tab{
+    padding-left: 75px;
+}
+.skills, .progSkills,.objective,.education,.scholarship,.experience,.refer{
+    border-top: 3px solid black;
+}
+.skills,.heading,.progSkills,.objective,.education,.scholarship,.experience,.refer{
+    padding: 10px;
+    padding-left: 0px;
+}
+.attributes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
